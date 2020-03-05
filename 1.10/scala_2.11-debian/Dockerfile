@@ -16,7 +16,7 @@
 # limitations under the License.
 ###############################################################################
 
-FROM openjdk:8-jre
+FROM openjdk:8-jre-stretch
 
 # Install dependencies
 RUN set -ex; \
